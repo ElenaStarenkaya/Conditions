@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <div id="msg">Allow scripts to use this page</div>
+    <script>
+        // alert("Hello, world!");
+        // alert("Hello, " + "world!"); //диалоговое окно с каким-то текстом
+        // prompt("С вами поздоровались.\nНапишите свое приветствие:","Hello"); //запрос на ввод какого-нибудь текста
+        // confirm("Вы готовы продолжить?");
+        var username = "Lena";
+        alert("Hello, " + username + "! How are you?");
+        var myAnswer = prompt("Write your answer:");  //окно ввода текста, где нужноо ввести свой ответ
+        confirm("Your answer is:\n" + myAnswer + "\nRight?")
+        if (username == "4")
+            alert("Wow! What a wonderful name!");
+        else
+            if (username == "Masha")
+                alert("You don't look like Masha...");
+            else
+                alert("Name " + username + " is so usual...");
+                if (confirm("Do you like this program?"))
+                alert("I like you too!");
+                else 
+                alert("I'm so sorry");
+    </script>
+</body>
+
+</html>
